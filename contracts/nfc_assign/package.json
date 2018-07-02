@@ -2,11 +2,11 @@
   "engines": {
     "composer": "^0.19.10"
   },
-  "name": "nfc_assign",
+  "name": "test1",
   "version": "0.0.1",
-  "description": "nfc assign",
+  "description": "test1",
   "scripts": {
-    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/nfc_assign.bna",
+    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/test1.bna",
     "pretest": "npm run lint",
     "lint": "eslint .",
     "test": "nyc mocha -t 0 test/*.js && cucumber-js"
